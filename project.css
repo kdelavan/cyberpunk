@@ -1,3 +1,38 @@
 h1 {
-  color: purple;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-neuro {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.img-neotokyo {
+  width: 400px;
+  margin-top: 25px;
+}
+
+.img-crash {
+  width: 430px;
+  margin-top: 8px;
+}
+
+.img-overlook {
+  width: 400px;
+  margin-top: 15px;
+}
+
+.img-geisha {
+  width: 400px;
+}
+
+.img-newport {
+  width: 400px;
 }
