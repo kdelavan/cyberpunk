@@ -1,13 +1,52 @@
+:root {
+  --heading-type: "Audiowide", monospace;
+  --body-type: "Space Mono", monospace;
+}
+
+body {
+  background: rgb(92, 88, 182);
+  background: linear-gradient(
+    rgba(92, 88, 182, 0.6) 0%,
+    rgba(185, 87, 206, 0.6) 44%,
+    rgba(89, 148, 206, 0.6) 85%
+  );
+}
+
 h1 {
   font-size: 100px;
+  margin-top: 100px;
+  font-family: var(--heading-type);
 }
 
 h2 {
   font-size: 40px;
+  font-family: var(--heading-type);
+}
+
+a {
+  text-decoration: none;
+  color: #0c121e;
+}
+
+a:hover {
+  color: #01607e;
 }
 
 .text-center {
   text-align: center;
+}
+
+.body-text {
+  font-family: var(--body-type);
+  font-size: 18px;
+}
+
+.hero {
+  background-color: rgba(185, 87, 206, 0.6);
+  border-radius: 10px;
+  border: solid 1px #000000;
+  margin: 80px 0 25px 0;
+  padding: 45px;
 }
 
 .img-neuro {

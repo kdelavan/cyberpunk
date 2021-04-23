@@ -19,25 +19,57 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="project.css" />
 
     <title>Cyberpunk</title>
   </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid body-text">
+    <a class="navbar-brand" href="/index.html">Cyberpunk</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pop Culture</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Media
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Books</a></li>
+            <li><a class="dropdown-item" href="#">Movies</a></li>
+            <li><a class="dropdown-item" href="#">Games</a></li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </nav>
 
   <body>
-    <div class="container mt-5">
-      <h1 class="text-center">C Y B E R P U N K</h1>
+    <div class="container">
+      <h1 class="text-center"><em>C Y B E R P U N K</em></h1>
 
-      <div class="row">
+      <div class="row hero">
         <div class="col">
-          <h2>What is cyberpunk?</h2>
-          <p>
+          <h2 class="mb-4">What is cyberpunk?</h2>
+          <p class="body-text">
             It is a subgenre of sci-fi set in a dystopian futuristic world. A
             "combination of low life and high tech", cyberpunk features elements
             such as artificial intelligence, and cybernetics which are
             juxtaposed with some kind of disruption to the social order.
           </p>
-          <a href="#" title="Learn more">Learn more</a>
+          <a href="#" class="body-text" title="Learn more">Learn more ➡</a>
         </div>
       </div>
     </div>
@@ -46,53 +78,57 @@
       <h2 class="mb-4">Hey choom, check out this art!</h2>
       <div class="row">
         <div class="col">
-          <img
+          <a href="https://www.instagram.com/deathburger/?hl=en" title="Josan Gonzalez"><img
             src="/images/brazillianNeuromancer.jpg"
             class="img-neuro img-fluid"
             alt="alternate cover for the book Neuromancer"
-          />
+          /></a>
         </div>
         <div class="col">
-          <img
+          <a href="https://www.dangiuz.com/works/" title="Leopoldo D'Angelo"><img
             src="/images/neotokyo.jpg"
             class="img-neotokyo img-fluid"
             alt="neon city"
-          />
+          /></a>
         </div>
         <div class="col">
-          <img
+          <a href="https://nexusroku.tumblr.com/" title="Laurie Greasley"><img
             src="/images/crash.jpg"
             class="img-crash img-fluid"
             alt="cyberpunk robot"
-          />
+          /></a>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <img
+         <a href="https://www.artstation.com/artwork/XnNKdR" title="Ignacio Bazan-Lazcano"> <img
             src="/images/city-ledge.jpg"
             class="img-overlook img-fluid"
             alt="person overlooking city"
-          />
+          /></a>
         </div>
         <div class="col">
-          <img
+         <a href="https://kampcollective.com/" title="Kamp Collective"> <img
             src="/images/geisha.jpg"
             class="img-geisha img-fluid"
             alt="cyberpunk geisha"
-          />
+          /></a>
         </div>
         <div class="col">
-          <img
+          <a href="https://www.artstation.com/artwork/xzOkr1"title="Michal Kváč"><img
             src="/images/newportcity.jpg"
             class="img-newport img-fluid"
             alt="glowing skyscrapers"
-          />
+          /></a>
         </div>
       </div>
     </div>
+
     <footer>
-      <p><a href="#">Open-source code</a> by Kathryn Delavan</p>
+      <p><a href="#">Open-source code</a> by Kathryn Delavan Hosted with <a href="#">Netlify</a></p>
     </footer>
+    
+
+  
   </body>
 </html>
