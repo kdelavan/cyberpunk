@@ -32,6 +32,10 @@ a:hover {
   color: #01607e;
 }
 
+footer {
+  text-align: center;
+}
+
 .text-center {
   text-align: center;
 }
@@ -74,4 +78,11 @@ a:hover {
 
 .img-newport {
   width: 400px;
+}
+
+/* about */
+
+div .video {
+  margin-top: 40px;
+  text-align: center;
 }
